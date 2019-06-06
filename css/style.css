@@ -1,2 +1,82 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  text-align: center;
+  color: white;
+  background-color: #302b2b;
+  font-family: 'Titillium Web', sans-serif;
+  background-image: url("../images/world.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  background-color: rgba(2, 2, 2, 0.5);
+  font-size: 45px;
+  padding: 20px 0;
+}
+
+#country-name {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 3px solid #302b2b;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+}
+
+#country-name:focus {
+  border: 3px solid #FFDE41;
+}
+
+#search {
+  margin-top: 10px;
+  font-family: 'Titillium Web', sans-serif;
+  border: 3px solid #302b2b;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search:hover {
+  border: 3px solid #FFDE41;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+ul {
+  font-size: 25px;
+  list-style-type: none;
+  padding: 0;
+  background-color: rgba(2, 2, 2, 0.5);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 25px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid #FFF;
+}
+
+span {
+  font-size: 30px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.flag {
+  height: 5vh;
+  position: relative;
+  top: 10px;
+}
 /*# sourceMappingURL=style.css.map */
